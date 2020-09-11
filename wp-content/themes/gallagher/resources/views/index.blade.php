@@ -1,5 +1,4 @@
 @extends('layouts.app')
-
 @section('content')
   @include('partials.page-header')
 
@@ -14,5 +13,5 @@
     @include('partials.content-'.get_post_type())
   @endwhile
 
-  {!! get_the_posts_navigation() !!}
+   {!! get_the_posts_navigation() !!}
 @endsection

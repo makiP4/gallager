@@ -3,11 +3,11 @@
   @include('partials.head')
   <body @php body_class() @endphp>
     @php do_action('get_header') @endphp
-    @include('partials.header')
-    <div class="wrap container" role="document">
+     @include('partials.header')
+    <div class="wrap container-fluid" role="document">
       <div class="content">
         <main class="main">
-          @yield('content')
+           @yield('content')
         </main>
         @if (App\display_sidebar())
           <aside class="sidebar">

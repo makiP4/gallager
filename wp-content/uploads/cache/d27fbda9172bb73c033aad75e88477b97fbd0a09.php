@@ -1,5 +1,5 @@
 <header class="banner">
-  <div class="container">
+  <div class="container-fluid">
     <a class="brand" href="<?php echo e(home_url('/')); ?>"><?php echo e(get_bloginfo('name', 'display')); ?></a>
     <nav class="nav-primary">
       <?php if(has_nav_menu('primary_navigation')): ?>
@@ -9,3 +9,6 @@
     </nav>
   </div>
 </header>
+
+
+

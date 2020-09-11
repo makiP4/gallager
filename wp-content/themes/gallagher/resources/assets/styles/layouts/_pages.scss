@@ -1,0 +1,49 @@
+.banner {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-primary {
+  float: right;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.gb-line {
+  content: "";
+  position: absolute;
+  left: 3px;
+  bottom: -40px;
+  height: 1px;
+  width: 185px;
+  border-bottom: 10px solid #fff;
+}
+
+.theme {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    color: #005984;
+  }
+
+  h2 {
+    font-size: 75px;
+    font-weight: bold;
+  }
+
+  .underline {
+    color: #005984;
+    border-bottom: 4px solid #005984;
+  }
+}
+
+.theme.gb-line {
+  border-bottom: 10px solid #005984;
+}
